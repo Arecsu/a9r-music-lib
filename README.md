@@ -12,13 +12,13 @@ Just wait for every download link to be ready and run the extension. Don't lose 
 
 Unzip every bandcamp zip file into my chosen folder structure (./$artist/$album)
 
-With support for multithread unzip process. Modify the number of threads inside the script. With 2+, it will nuke pretty much any HDD, so use 2+ only with SSD/NVMEs.
+With support for multithread unzip process. Tweak the number of threads inside the script. With 2+, it will nuke pretty much any HDD, so use 2+ only with SSD/NVMEs.
 
 # Last.fm
 
 ### 🖼️ artist-images-lastfm.py
 
-Get all the images from Last.fm of a given artist. Multithreaded. Change the number of parallel downloads inside the script.
+Get all the images from Last.fm of a given artist. Multithreaded. Tweak the number of parallel downloads inside the script.
 
 [Gist previously published here](https://gist.github.com/Arecsu/2a96c33b4a99705d7711dee77156e2c2)
 
@@ -36,7 +36,7 @@ Search for FLAC files in folder and subfolders and converts them to .opus files.
 
 Opus compression is insanely good. Can't tell between FLAC and 128 kbps Opus. Seriously, it's THAT good 😱
 
-Uses multithread. Increase or decrease the number of jobs inside the script depending on your storage/cpu speeds.
+Uses multithread. Tweak the number of parallel conversions inside the script depending on your storage and cpu speed.
 
 ### ❌ Delete all flac files
 
