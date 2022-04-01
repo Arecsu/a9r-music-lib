@@ -38,7 +38,7 @@ Opus compression is insanely good. Can't tell between FLAC and 128 kbps Opus. Se
 
 Uses multithread. Tweak the number of parallel conversions inside the script depending on your storage and cpu speed.
 
-### ❌ Delete all flac files
+### ❌ Delete all FLAC files
 
 After I convert everything to Opus, I run this line to get rid of all FLAC files in folder and subfolders
 
