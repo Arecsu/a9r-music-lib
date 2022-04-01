@@ -144,7 +144,12 @@ def lastfm_scrapper(artist):
 
 list_directories = next(os.walk('.'))[1]
 
-print(len(list_directories))
+# print(len(list_directories))
 
-for directory in list_directories:
-    lastfm_scrapper(directory)
+x=mp.Pool(4)
+x.map(lastfm_scrapper, list_directories)
+x.close()
+x.join()
+
+# for directory in list_directories:
+#     lastfm_scrapper(directory)
