@@ -6,7 +6,11 @@ Collection of scripts and stuff that I use to handle my local music library 🎷
 
 [This extension](https://chrome.google.com/webstore/detail/bandcamp-auto-downloader/igbcekbalgomjoblhoehkemlcapkfaki/). Not developed by me. Works *fine*.
 
-Just wait for every download link to be ready and run the extension. Don't lose the focus on the browser tab for too long. If possible, leave it always on top.
+1. Wait for every download link to be ready and run the extension
+2. Configure the browser to accept every download automatically in a specific folder
+3. Don't lose the focus on the browser tab for too long. If possible, leave it always on top.
+4. ???
+5. Download everything
 
 ### 🗃️ unzip-bandcamp-parallel.sh
 
