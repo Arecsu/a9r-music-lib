@@ -50,4 +50,6 @@ After I convert everything to Opus, I run this line to get rid of all FLAC files
 find . -name "*.flac" -type f -delete
 ```
 
+### 🧨 no-media.sh
 
+Creates a `.NOMEDIA` file inside all subfolders of a given path. Android will exclude the folder from gallery apps and such

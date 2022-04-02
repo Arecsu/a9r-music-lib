@@ -6,6 +6,7 @@
 flac_to_opus() {
    # flacpath="$1"
    opuspath="${1::-5}.opus"
+
    # basename=$(basename "$1" .flac)
    # echo works faster compared to basename :)
    basename=$(echo ${1##*/})
@@ -16,4 +17,4 @@ flac_to_opus() {
 
 export -f flac_to_opus
 # can increase jobs if your cpu and storage can handle it
-find . -name "*.flac" | parallel --jobs 8 flac_to_opus {}
+find $1 -name "*.flac" | parallel --jobs 8 flac_to_opus {}
